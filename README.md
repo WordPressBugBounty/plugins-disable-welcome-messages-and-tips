@@ -1,0 +1,1 @@
+# plugins-disable-welcome-messages-and-tips
