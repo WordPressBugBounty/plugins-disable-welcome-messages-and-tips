@@ -2,7 +2,7 @@
 /*
   Plugin Name: Disable Welcome Messages and Tips
   Description: Hide Welcome Messages and Tips in the Gutenberg Block Editor
-  Version: 1.1
+  Version: 1.2
   Author: Jules Colle
   Author URI: https://bdwm.be
  */
@@ -21,8 +21,8 @@ function dwat_hide_popovers() {
 
 	<script>
 		jQuery(window).on('load', function(){
-			wp.data && wp.data.select( 'core/edit-post' ).isFeatureActive( 'welcomeGuide' ) && wp.data.dispatch( 'core/edit-post' ).toggleFeature( 'welcomeGuide' );
-			wp.data && wp.data.select( 'core/edit-post' ).isFeatureActive( 'fullscreenMode' ) && wp.data.dispatch( 'core/edit-post' ).toggleFeature( 'fullscreenMode' );
+			wp.data?.select( 'core/edit-post' )?.isFeatureActive?.( 'welcomeGuide' ) && wp.data.dispatch( 'core/edit-post' ).toggleFeature( 'welcomeGuide' );
+			wp.data?.select( 'core/edit-post' )?.isFeatureActive?.( 'fullscreenMode' ) && wp.data.dispatch( 'core/edit-post' ).toggleFeature( 'fullscreenMode' );
 		});
 	</script>
 	<?php

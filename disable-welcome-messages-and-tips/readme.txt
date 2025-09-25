@@ -5,7 +5,7 @@ Website: https://bdwm.be
 Tags: gutenberg, block-editor, notifications
 Requires at least: 5.0
 Tested up to: 6.3
-Stable tag: 1.1
+Stable tag: 1.2
 Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,9 @@ Follow [this tutorial](https://conditional-fields-cf7.bdwm.be/conditional-fields
 == Screenshots ==
 
 == Changelog ==
+
+= 1.2 (2025-09-25) =
+* Prevent JS error when wp.data is defined but wp.data.select('...') is not
 
 = 1.1 (2023-08-16) =
 * Change `jQuery(window).load(fn)` to `jQuery(window).on('load', fn)` to meet latest jQuery standards and remove deprecation warnings in console.
