@@ -4,7 +4,7 @@ Author: Jules Colle
 Website: https://bdwm.be
 Tags: gutenberg, block-editor, notifications
 Requires at least: 5.0
-Tested up to: 6.3
+Tested up to: 6.9
 Stable tag: 1.2
 Requires PHP: 5.7
 License: GPLv2 or later
